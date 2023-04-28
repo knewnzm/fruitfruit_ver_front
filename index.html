@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <title>Document</title>
+</head>
+<style>
+    section {
+        height: 800px;
+    }
+</style>
+<body>
+
+    <!-- 헤더 -->
+    <header class="headArea fruit wrap">
+        <div class="util innerContent">
+            <ul class="accountArea">
+                <li>
+                    <a href="#">로그인</a>
+                </li>
+                <li>
+                    <a href="#">회원가입</a>
+                </li>
+                <li>
+                    <a href="#">1:1문의</a>
+                </li>
+            </ul>
+            <div class="main innerContent">
+                <!-- Logo -->
+                <h1 class="logoArea fruit">
+                    <a href="#">
+                        <img src="${pageContext.request.contextPath}/static/img/프룻프룻d.png" alt="프룻프룻 로고"
+                            style="width:150px;">
+                    </a>
+                </h1>
+                <div class="searchAreaWrap">
+                    <form>
+                        <div class="searchArea fruit TXT">
+                            <input title="검색어 입력" id="headerSearchId" placeholder="검색어를 입력하세요" class="TXT"
+                                type="search">
+                            <button type="button" class="btnSearchInner"></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="buttonArea">
+                    <div class="icon">
+                        <a href="${pageContext.request.contextPath}/wish/wishList" class="heart">나의 찜</a>
+                    </div>
+                    <div class="icon">
+                        <a href="${pageContext.request.contextPath}/" class="mypage">마이페이지</a>
+                    </div>
+                    <div class="icon">
+                        <a href="${pageContext.request.contextPath}/help/helpForm.jsp" class="chat">1:1 문의</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 메뉴 카테고리 -->
+        <div class="sub">
+            <div class="inner">
+                <div class="category fruit">
+                    <div class="moreViewWrap">
+                        <button type="button" class="moreView">
+                            <span class="bar"></span>
+                        </button>
+                        <div class="dep1 hidden">
+                            <ul class="category-wrap">
+                                <li class="menuArea">
+                                    <a href="#" class="title on">
+                                        <span class="text">과일</span>
+                                    </a>
+                                    <ul class="category-wrap">
+                                        <li>
+                                            <a href="#" class="on title">
+                                                <span class="text">사과/배</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div id="menuInner" class="menuInner">
+                            <ul>
+                                <li class>
+                                    <a href="#">신상품</a>
+                                </li>
+                                <li class>
+                                    <a href="#">인기베스트</a>
+                                </li>
+                                <li class>
+                                    <a href="#">알뜰상품</a>
+                                </li>
+                                <li class>
+                                    <a href="#">이벤트/공지</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <section>
+        메인 컨텐츠
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <h1>프룻프룻</h1>
+            <ul class="footer_info clearfix">
+
+            </ul>
+            <div class="address">
+                <ul class="clearfix">
+                    <li>프로젝트 기간: </li>
+                    <li>https://github.com/knewnzm/fruitfruit_ver_front</li>
+                </ul>
+            </div>
+            <p class="copyright">Copyright © ming</p>
+        </div>
+        </footer>
+
+
+</body>
+
+</html>
