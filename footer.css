@@ -9,7 +9,7 @@ footer {
     font-size:14px;
     color:#999;
     position : relative; 
-    transform : translateY(-100%);
+    /* transform : translateY(-100%); */
 }
 
 .footer_info {margin-bottom:30px;}

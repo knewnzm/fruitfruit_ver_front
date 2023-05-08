@@ -5,20 +5,20 @@
         margin: 0 auto;
 }
 
-.headArea {
+.head__area {
     position: relative;
     height: 200px;
     padding-top: 30px;
 }
 
 
-.headArea .innerContent {
-    width: 100%;
+.head__area .innerContent {
+    width: 1200px;
     height: 120px;
     /** border-top: 1px solid #f02c11; **/
 }
 
-.headArea .util {
+.head__area .util {
     /** width: 1400px; **/
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +34,7 @@
     text-align: left;
 } **/
 
-.headArea .util .main {
+.head__area .util .main {
     /** width: 1400px; **/
     position: relative;
     margin: 0 auto;
@@ -43,7 +43,7 @@
     align-items: center;
 }
 
-.headArea .innerContent .accountArea {
+.accountArea {
     position: absolute;
     right: 50%;
     top: 8px;
@@ -52,7 +52,7 @@
 
 
 
-.headArea .innerContent .accountArea {
+.accountArea {
     position: absolute;
     right: 50%;
     top: 8px;
@@ -67,11 +67,11 @@
     line-height: 17px;
 }
 
-.headArea .main {
+.main {
     position: relative;
 }
 
-.headArea .main .logoArea {
+.logoArea {
     position: absolute;
     left: 0;
     top: 20px;
@@ -82,7 +82,7 @@
 
 /** 검색창 **/
 
-.headArea .innerContent .searchAreaWrap {
+.searchAreaWrap {
     position: absolute;
     left: 50%;
     top: 30px;
@@ -90,31 +90,30 @@
     margin-left: -200px;
 }
 
-.headArea .innerContent .searchAreaWrap .searchArea {
+.searchAreaWrap .searchArea {
     width: 400px;
     height: 48px;
-    border: 1px solid #f02c11;
-    border-radius: 6px;
+    border: 2px solid #f02c11;
+    border-radius: 25px;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 55px 8px 20px;
+    padding: 8px 5px 8px 20px;
     position: relative;
 }
 
-.headArea .innerContent .searchAreaWrap .searchArea input {
+.head__area .innerContent .searchAreaWrap .searchArea input {
     /** padding: 0 28px 0 0; **/
     width: 80%;
     font-size: 16px;
 }
 
-.headArea .innerContent .searchAreaWrap .searchArea .btnSearchInner {
+.head__area .innerContent .searchAreaWrap .searchArea .btnSearchInner {
+    margin-left: 25px;
     width: 30px;
     height: 30px;
-    position: absolute;
-    background: url(../img/search_icon.png) no-repeat;
+    background: url(images/search.png) no-repeat;
     line-height: 0;
     vertical-align: middle;
-    color: transparent;
     border: none;
     position: relative;
     color: #f02c11;
@@ -123,7 +122,7 @@
 
 /** 나의찜,마이페이지,1:1문의 **/
 
-.headArea .innerContent .buttonArea {
+.buttonArea {
     display: flex;
     position: absolute;
     right: 0;
@@ -131,18 +130,18 @@
 }
 
 
-.headArea .innerContent .buttonArea ul {
+.buttonArea ul {
     display: flex;
 }
 
-.headArea .innerContent .buttonArea ul li {
+.buttonArea ul li {
     position: relative;
     width: 70px;
     font-size: 13px;
     line-height: 1.46;
 }
 
-.headArea .innerContent .searchAreaWrap .searchArea .buttonArea ul li a {
+.buttonArea ul li a {
     display: block;
     width: 100%;
     padding-top: 37px;
@@ -216,10 +215,11 @@ background-color: transparent;
 
 .sub .inner .category .moreViewWrap .moreView .bar {
     display: inline-block;
-    background: url(../img/categoty_w.png) no-repeat;
+    background: url(images/category.png) no-repeat;
     background-size: cover;
     width: 30px;
     height: 30px;
+    border: none;
 }
 
 /** 카테고리 + 메뉴바 정렬**/
